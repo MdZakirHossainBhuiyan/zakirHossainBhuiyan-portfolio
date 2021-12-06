@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.aboutMe-main{
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    height: 695px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutMe-section{
+    padding: 2rem;
+    width: 100%;
+    display: grid;
+    grid: auto / auto;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.aboutMe-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.aboutMe-pageTitle h1{
+    font-size: 60px;
+}
+
+.aboutMe-pageIcon{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin-right: 2rem;
+    padding: 10px;
+    color: black;
+    background-color: #b6935b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe-Info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.aboutMe-Info h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.info-title{
+    font-weight: 700;
+    color: dimgray;
+    margin-right: 10px;
+}
+
+.personal-info td{
+    width: 350px;
+    height: 25px;
+}
+
+.personal-info button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    background-color: #d40c37;
+    color: #ffffff;
+    font-weight: 700;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.personal-info button:hover{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.download-icon{
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.career-objective{
+    width: 40%;
+}
+
+.career-objective p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.career-objective ul{
+    margin-left: 3rem;
+}
+
+.career-objective li{
+    margin: 0.4rem 0rem;
+    color: #d40c37;
+}
+
+.key-point{
+    color: #b6935b;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutMe-section {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid: auto/auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutMe-header {
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .aboutMe-Info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+  }

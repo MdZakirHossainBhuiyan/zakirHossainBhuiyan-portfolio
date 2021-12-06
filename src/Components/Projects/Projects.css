@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.projects-main{
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.sideBar-component{
+    margin-top: -1000px;
+}
+
+.projects-section{
+    margin-left: 250px;
+}
+
+.projects-heading{
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(66, 65, 65);
+}
+
+.projects-heading span{
+    font-size: 20px;
+    color: rgb(131, 129, 129);
+}
+
+.projects-contain{
+    display: grid;
+    grid: auto / auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
