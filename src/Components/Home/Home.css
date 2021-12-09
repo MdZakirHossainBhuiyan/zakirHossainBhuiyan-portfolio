@@ -49,11 +49,10 @@
 .home-img-div img{
     height: 340px;
     width: 340px;
-    /* border-right: 5px solid #b6935b;
-    border-bottom: 5px solid #b6935b;
-    border-top: 5px solid #b6935b; */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(50%);
     border-radius: 50%;
-
+    z-index: -1;
 }
 
 .home-info-div h1{
@@ -103,7 +102,7 @@
     font-size: 55px;
     top: 55px;
     left: 55px;
-    transform: translate(-37%, -13%);
+    transform: translate(-38%, -15%);
 }
 
 .circle {
@@ -122,7 +121,7 @@
 }
 
 .error {
-    border: 2.5px dashed #b6935b;
+    border: 2.5px dashed #ffffff;
 }
 
 @keyframes spin { 

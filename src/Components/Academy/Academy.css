@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.academy-main{
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    height: 695px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sideBar-academy-component{
+    margin-top: -600px;
+}
+
+.academy-container{
+    margin-left: 200px;
+}
+
+.academy-heading{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(66, 65, 65);
+}
+
+.academy-heading h1{
+    margin-left: -40px;
+}
+
+.academy-properties{
+    display: flex;
+}
+
+.academy-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.academy-titles button{
+    border: none;
+    background-color: rgb(27, 26, 26);
+    color: #ffffff;
+    margin: 10px 0px;
+    font-size: 20px;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.academy-titles button:hover{
+    color: #b6935b;
+}
+
+.academy-title-icon{
+    margin-right: 10px;
+}
+
+.programming-profile{
+    margin-top: 170px;
+    margin-left: 100px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-judges{
+    display: grid;
+    grid: auto / auto auto;
+}
+
+.judge-site{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 40px 10px 10px;
+}
+
+.judge-site img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.stopStalk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 20px 10px 10px;
+}
+
+.stopStalk img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.programming-profile p{
+    color: #b6935b;
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.programming-profile p{
+    transition: --num 5s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+}
+
+.programming-profile p::after {
+    content: counter(num);
+}
+
+.codeForce-Value:hover {
+    --num: 29;
+}
+
+.uri-Value:hover {
+    --num: 96;
+}
+
+.uva-Value:hover {
+    --num: 18;
+}
+
+.hackerRank-Value:hover {
+    --num: 31;
+}
+
+.stopStalk-Value:hover {
+    --num: 78;
+}
+

@@ -35,6 +35,8 @@ const Home = () => {
                     <Link to="/contact" style={{ textDecoration: 'none' }}><button><span>Hire Me</span> <FontAwesomeIcon icon={faUser} /> </button></Link>
                 </div>
             </section>
+
+            
         </main>
     );
 };

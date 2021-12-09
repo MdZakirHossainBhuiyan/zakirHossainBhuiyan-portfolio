@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-main{
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sideBar-contact-component{
+    margin-top: -600px;
+}
+
+.contact-container{
+    margin-left: 200px;
+}
+
+.contact-heading{
+    margin-top: 60px;
+    padding: 10px;
+    color: rgb(66, 65, 65);
+}
+
+.contact-heading h1{
+    font-size: 60px;
+}
+
+.contact-heading span{
+    font-size: 20px;
+    color: rgb(131, 129, 129);
+}
+
+.contact-properties{
+    display: flex;
+}
+
+.contact-info{
+    font-size: 15px;
+    margin-top: 50px;
+    color: #ffffff;
+    margin-bottom: 108px;
+}
+
+.contact-info span{
+    font-size: 20px;
+    color: #b6935b;
+}
+
+.contact-item{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-icon{
+    font-size: 25px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+.contact-item p>span{
+    color: dimgray;
+    font-weight: 700;
+}
+
+.contact-social-media{
+    margin: 30px 0px;
+}
+
+.contact-social-media p{
+    font-weight: 700;
+}
+
+.contact-social-icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.icon-style:hover{
+    color: #b6935b;
+}
+
+.contact-form{
+    width: 600px;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.contact-form h1{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.form-body{
+    margin-top: 60px;
+}
+
+.flex-input{
+    width: 100%;
+    display: flex;
+}
+
+.name-field{
+    width: 50%;
+    margin-right: 10px;
+}
+
+.email-field{
+    width: 50%;
+}
+
+.form-button{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form-button button:hover{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
