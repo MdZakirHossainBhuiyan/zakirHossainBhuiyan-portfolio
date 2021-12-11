@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.toolsSkills-list{
+    width: 100%;
+    height: auto;
+    border-left: 3px solid dimgray;
+    margin-left: 50px;
+    margin-top: 15px;
+    display: grid;
+    grid: auto/auto auto;
+}
+
+.toolsSkills-list table{
+    margin-left: 20px;
+}
+
+.toolsSkills-list-td span{
+    color: #b6935b;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .toolsSkills-list{
+        width: 100%;
+        height: auto;
+        border-left: 3px solid dimgray;
+        margin-left: 50px;
+        margin-top: 15px;
+        display: grid;
+        grid: auto/auto;
+    }    
+}

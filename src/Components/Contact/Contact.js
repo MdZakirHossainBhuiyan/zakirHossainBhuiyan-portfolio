@@ -18,7 +18,7 @@ const Contact = () => {
             </div>
             <div className="contact-container">
                 <div className="contact-heading">
-                    <h1>Contact <span>Get in touch!</span></h1>
+                    <h1>Contact <span className='contact-title-span'>Get in touch!</span></h1>
                     <div className="contact-properties">
                         <div className="contact-info">
                             <p><span>Hello Sir,<br /></span>For all enquiries, please don't be hesitate to contact me.</p>

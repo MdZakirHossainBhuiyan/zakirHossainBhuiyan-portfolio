@@ -6,14 +6,13 @@
 .academy-main{
     background-color: rgb(27, 26, 26);
     width: 100%;
-    height: 695px;
+    height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .sideBar-academy-component{
-    margin-top: -600px;
+    margin-top: 50px;
 }
 
 .academy-container{
@@ -129,23 +128,41 @@
     content: counter(num);
 }
 
-.codeForce-Value:hover {
+.codeForce-Value {
     --num: 29;
 }
 
-.uri-Value:hover {
+.uri-Value {
     --num: 96;
 }
 
-.uva-Value:hover {
+.uva-Value {
     --num: 18;
 }
 
-.hackerRank-Value:hover {
+.hackerRank-Value {
     --num: 31;
 }
 
-.stopStalk-Value:hover {
+.stopStalk-Value {
     --num: 78;
+}
+
+@media only screen and (max-width: 600px){
+    .academy-main{
+        height: 100vh;
+    }
+
+    .academy-container{
+        margin-left: 80px;
+    }
+
+    .academy-heading h1{
+        margin-left: 0px;
+    }
+
+    .academy-titles{
+        width: 90%;
+    }
 }
 

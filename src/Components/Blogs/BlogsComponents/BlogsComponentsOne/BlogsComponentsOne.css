@@ -35,3 +35,15 @@
     color: orange;
     font-size: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .components-section{
+        background-color: rgb(27, 26, 26);
+        margin: 10px 10px 0px 0px;
+        padding: 10px;
+        height: 400px;
+        overflow: auto;
+        color: #ffffff;
+        font-size: 15px;
+    }
+}

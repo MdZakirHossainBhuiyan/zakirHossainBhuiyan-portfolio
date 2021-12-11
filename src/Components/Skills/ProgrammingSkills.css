@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ProgrammingSkills-list{
+    width: 100%;
+    height: auto;
+    border-left: 3px solid dimgray;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.ProgrammingSkills-list table{
+    margin-left: 20px;
+}
+
+.ProgrammingSkills-list-td span{
+    color: #b6935b;
+    margin-right: 10px;
+}

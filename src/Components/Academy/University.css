@@ -34,3 +34,10 @@
     color: #b6935b;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 600px){
+    .university-section{
+        width: 100%;
+        height: auto;
+    }
+}

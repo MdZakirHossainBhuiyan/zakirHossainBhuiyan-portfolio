@@ -46,7 +46,7 @@ const Blogs = () => {
             </div>
             <div className="blogs-container">
                 <div className="blogs-heading">
-                    <h1>Blogs <span>you can read</span></h1>
+                    <h1>Blogs <span className='blogs-title-span'>you can read</span></h1>
                     <div className="blogs-properties">
                         <div className="blogs-titles">
                             <button onClick={handleBlogOne}><span className="blogs-title-icon"><FontAwesomeIcon icon={faCheckDouble} /></span>লিনাক্স কি? লিনাক্স ভিত্তিক অপারেটিং সিস্টেমের সুবিধা কি?</button>

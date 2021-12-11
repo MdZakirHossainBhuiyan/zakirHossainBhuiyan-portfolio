@@ -6,7 +6,7 @@
 .contact-main{
     background-color: rgb(27, 26, 26);
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,6 +37,7 @@
 
 .contact-properties{
     display: flex;
+    flex-direction: row;
 }
 
 .contact-info{
@@ -128,4 +129,47 @@
 .form-button button:hover{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-main{
+        height: auto;
+    }
+
+    .sideBar-contact-component{
+        margin-top: -800px;
+    }
+    
+    .contact-container{
+        margin-left: 80px;
+    }
+
+    .contact-heading h1{
+        font-size: 40px;
+    }
+
+    .contact-title-span{
+        display: none;
+    }
+
+    .contact-properties{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info{
+        margin-bottom: 10px;
+    }
+
+    .contact-form{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form h1{
+        font-size: 20px;
+        text-align: center;
+    }
 }
