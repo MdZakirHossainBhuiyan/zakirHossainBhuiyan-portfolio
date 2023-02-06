@@ -3,120 +3,287 @@
     padding: 0;
 }
 
-.aboutMe-main{
+.aboutMeMain{
     background-color: rgb(27, 26, 26);
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
 }
 
-.aboutMe-section{
-    padding: 2rem;
+@media only screen and (max-width: 400px){
+    .aboutMeMain{
+        background-color: rgb(27, 26, 26);
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.aboutSection{
     width: 100%;
-    display: grid;
-    grid: auto / auto;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
     color: #ffff;
+    margin-left: 170px;
 }
 
-.aboutMe-header{
+@media only screen and (max-width: 400px){
+    .aboutSection{
+        width: 100%;
+        height: 100%;
+        color: #ffff;
+        margin-left: 70px;
+    }
+}
+
+.aboutHeader{
     width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.aboutHeader h1{
+    font-size: 50px;
+    color: rgb(51, 49, 49);
+}
+
+@media only screen and (max-width: 400px){
+    .aboutHeader h1{
+        font-size: 30px;
+        color: rgb(51, 49, 49);
+    }
+}
+
+.aboutHeader h1 span{
+    font-size: 15px;
+    color: gray;
+    align-items: flex-end;
+}
+
+.aboutHeader hr{
+    margin-left: 5px;
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: gray;
+}
+
+.aboutContent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.personalInfo{
+    width: 50%;
+}
+
+.divTitle{
+    display: flex;
+}
+
+.divTitle hr{
+    margin-left: 5px;
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: gray;
+}
+
+.nameDiv{
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    background-color: #0B1120;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nameIcon{
+    width: 40px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: #ffff;
+    border-right: 1px solid gray;
 }
 
-.aboutMe-pageTitle h1{
-    font-size: 60px;
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 3px;
+    color: rgb(187, 184, 184);
 }
 
-.aboutMe-pageIcon{
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    margin-right: 2rem;
+.nameDiv h1{
+    font-size: 20px;
+}
+
+.contactDiv{
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.contactContent{
+    width: 50%;
+    height: 40px;
+    background-color: #0B1120;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+}
+
+.divMargin{
+    margin-right: 10px;
+}
+
+.topDiv{
+    width: 50%;
+    height: 80px;
+    background-color: #0B1120;
+    margin-top: 10px;
+    border-radius: 10px;
     padding: 10px;
-    color: black;
-    background-color: #b6935b;
+    line-height: 1px;
+}
+
+.topDiv h6{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.topDiv h6 hr{
+    width: 40px;
+    height: 2px;
+    background-color: gray;
+    border: none;
+    margin-right: 10px;
+}
+
+.topDiv p{
+    margin-left: 50px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.bottomDiv{
+    width: 50%;
+    height: 80px;
+    background-color: #0B1120;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 1px;
+}
+
+.bottomDiv h6{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.bottomDiv h6 hr{
+    width: 40px;
+    height: 2px;
+    background-color: gray;
+    border: none;
+    margin-right: 10px;
+}
+
+.bottomDiv p{
+    margin-left: 50px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.careerObjective{
+    width: 40%;
+}
+
+.careerObjective p{
+    text-align: justify;
+    margin-bottom: 15px;
+    color: rgb(187, 184, 184);
+}
+
+.keyPoint{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.keyPointItem{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.keyPointIcon{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #0284C7;
+    color: #0284C7;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.aboutMe-Info{
+.keyPointText{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: rgb(187, 184, 184);
+}
+
+.downloadButton{
+    margin-top: 15px;
+    border: 2px solid #0284C7;
+    background-color: transparent;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.downloadButton a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    color: #0284C7;
+    text-decoration: none;
+}
+
+.downloadIcon{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 5rem;
+    transition: 3s;
+    transform: rotate(180deg);
 }
 
-.aboutMe-Info h5{
-    text-transform: uppercase;
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.info-title{
-    font-weight: 700;
-    color: dimgray;
-    margin-right: 10px;
-}
-
-.personal-info td{
-    width: 350px;
-    height: 25px;
-}
-
-.personal-info button{
-    width: 150px;
-    height: 30px;
-    border: none;
-    margin-top: 20px;
-    background-color: dimgray;
-    color: #ffff;
-    /* font-weight: 700; */
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.personal-info button:hover{
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-}
-
-.download-icon{
-    margin-left: 10px;
-    color: black;
-}
-
-.career-objective{
-    width: 40%;
-}
-
-.career-objective p{
-    text-align: justify;
-    margin-bottom: 30px;
-}
-
-.career-objective ul{
-    margin-left: 3rem;
-}
-
-.career-objective li{
-    margin: 0.4rem 0rem;
-    color: dimgray;
-}
-
-.key-point{
-    color: #b6935b;
-    margin-left: 1rem;
+.downloadButton a:hover .downloadIcon{
+    transform: rotate(0deg);
+    color: #fff;
 }
 
 @media only screen and (max-width: 600px) {

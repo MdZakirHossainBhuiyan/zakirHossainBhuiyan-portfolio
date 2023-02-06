@@ -3,149 +3,175 @@
     padding: 0;
 }
 
-.academy-main{
+.academyMain{
     background-color: rgb(27, 26, 26);
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
-}
-
-.sideBar-academy-component{
-    margin-top: 50px;
-}
-
-.academy-container{
-    margin-left: 200px;
-}
-
-.academy-heading{
-    margin-top: 30px;
-    padding: 10px;
-    font-size: 40px;
-    color: rgb(66, 65, 65);
-}
-
-.academy-heading h1{
-    margin-left: -40px;
-}
-
-.academy-properties{
-    display: flex;
-}
-
-.academy-titles{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-
-.academy-titles button{
-    border: none;
-    background-color: rgb(27, 26, 26);
-    color: #ffffff;
-    margin: 10px 0px;
-    font-size: 20px;
-    width: auto;
-    display: flex;
-    align-items: flex-start;
-    text-align: justify;
-}
-
-.academy-titles button:hover{
-    color: #b6935b;
-}
-
-.academy-title-icon{
-    margin-right: 10px;
-}
-
-.programming-profile{
-    margin-top: 170px;
-    margin-left: 100px;
-    width: 300px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.online-judges{
-    display: grid;
-    grid: auto / auto auto;
+.academySection{
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    margin-left: 150px;
 }
 
-.judge-site{
+.academyHeader{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.academyHeader h1{
+    font-size: 50px;
+    color: rgb(51, 49, 49);
+}
+
+.academyHeader h1 span{
+    font-size: 15px;
+    color: gray;
+    align-items: flex-end;
+}
+
+.academyHeader hr{
+    margin-left: 5px;
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: gray;
+}
+
+.academicContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.academicTimeline{
+    width: 50%;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px 0;
+}
+
+.timeline-container::after {
+    background-color: #0284C7;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 2px;
+    height: 100%;
+}
+
+.extraActivities{
+    width: 45%;
+    padding-left: 30px;
+}
+
+.extraActivities h6{
+    color: rgb(189, 184, 184);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.programmingState{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin: 10px 40px 10px 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
-.judge-site img{
-    width: 50px;
-    height: 50px;
+.stateContainer{
+    width: 100%;
+    height: 40px;
+    background-color: #0B1120;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.marginRight{
     margin-right: 10px;
+}
+
+.stateContainerImg{
+    width: 40px;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.stateContainerImg img{
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stateCount{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.stateCount span{
+    font-size: 25px;
 }
 
 .stopStalk{
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    color: gray;
+    font-style: italic;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    margin: 30px 20px 10px 10px;
 }
 
-.stopStalk img{
-    width: 60px;
-    height: 60px;
+.stopStalk span{
     margin-right: 10px;
 }
 
-.programming-profile p{
-    color: #b6935b;
+.hrLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-@property --num {
-    syntax: "<integer>";
-    initial-value: 0;
-    inherits: false;
+.hrLine hr{
+    width: 20%;
+    height: 2px;
+    background-color: #0284C7;
+    border: none;
 }
 
-.programming-profile p{
-    transition: --num 5s;
-    counter-set: num var(--num);
-    font: 800 40px system-ui;
-}
-
-.programming-profile p::after {
-    content: counter(num);
-}
-
-.codeForce-Value {
-    --num: 29;
-}
-
-.uri-Value {
-    --num: 96;
-}
-
-.uva-Value {
-    --num: 18;
-}
-
-.hackerRank-Value {
-    --num: 31;
-}
-
-.stopStalk-Value {
-    --num: 78;
+.academicPageKeyPoint{
+    width: 100%;
+    padding-left: 50px;
+    font-size: 15px;
+    color: gray;
 }
 
 @media only screen and (max-width: 600px){
