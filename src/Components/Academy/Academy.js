@@ -67,7 +67,7 @@ const Academy = () => {
                                     <img src={codeForces} alt="codeForces" />
                                 </div>
                                 <div className='stateCount'>
-                                    <span>151</span>
+                                    <span>152</span>
                                 </div>
                             </div>
                             <div className='stateContainer'>

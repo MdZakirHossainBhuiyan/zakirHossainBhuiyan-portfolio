@@ -12,11 +12,24 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 400px){
+    .contactMain{
+        height: auto;
+        align-items: flex-start;
+    }
+}
+
 .contactSection{
     width: 100%;
     height: 100%;
     color: #ffff;
     margin-left: 170px;
+}
+
+@media only screen and (max-width: 400px){
+    .contactSection{
+        margin-left: 70px;
+    }
 }
 
 .contactHeader{
@@ -28,9 +41,21 @@
     align-items: flex-end;
 }
 
+@media only screen and (max-width: 400px){
+    .contactHeader{
+        padding-top: 80px;
+    }
+}
+
 .contactHeader h1{
     font-size: 50px;
     color: rgb(51, 49, 49);
+}
+
+@media only screen and (max-width: 400px){
+    .contactHeader h1{
+        font-size: 30px;
+    }
 }
 
 .contactHeader h1 span{
@@ -54,9 +79,22 @@
     margin-top: 50px;
 }
 
+@media only screen and (max-width: 400px){
+    .contactContainer{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
 .contactItem{
     width: 50%;
     height: auto;
+}
+
+@media only screen and (max-width: 400px){
+    .contactItem{
+        width: 98%;
+    }
 }
 
 .contact-info{
@@ -123,6 +161,12 @@
 .contactForm{
     width: 45%;
     height: auto;
+}
+
+@media only screen and (max-width: 400px){
+    .contactForm{
+        width: 98%;
+    }
 }
 
 .contact-form{

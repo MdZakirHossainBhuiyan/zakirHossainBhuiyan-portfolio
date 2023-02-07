@@ -12,11 +12,31 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 400px){
+    .academyMain{
+        background-color: rgb(27, 26, 26);
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
 .academySection{
     width: 100%;
     height: 100%;
     color: #ffff;
     margin-left: 150px;
+}
+
+@media only screen and (max-width: 400px){
+    .academySection{
+        width: 100%;
+        height: 100%;
+        color: #ffff;
+        margin-left: 70px;
+    }
 }
 
 .academyHeader{
@@ -33,6 +53,12 @@
     color: rgb(51, 49, 49);
 }
 
+@media only screen and (max-width: 400px){
+    .academyHeader h1{
+        font-size: 30px;
+    }
+}
+
 .academyHeader h1 span{
     font-size: 15px;
     color: gray;
@@ -47,6 +73,12 @@
     background-color: gray;
 }
 
+@media only screen and (max-width: 400px){
+    .academyHeader hr{
+        display: none;
+    }
+}
+
 .academicContainer{
     width: 100%;
     height: auto;
@@ -55,8 +87,24 @@
     margin-top: 40px;
 }
 
+@media only screen and (max-width: 400px){
+    .academicContainer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+}
+
 .academicTimeline{
     width: 50%;
+}
+
+@media only screen and (max-width: 400px){
+    .academicTimeline{
+        width: 98%;
+    }
 }
 
 .timeline-container {
@@ -80,6 +128,15 @@
     padding-left: 30px;
 }
 
+@media only screen and (max-width: 400px){
+    .extraActivities{
+        width: 98%;
+        padding-left: 0px;
+        padding-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+
 .extraActivities h6{
     color: rgb(189, 184, 184);
     text-align: center;
@@ -93,6 +150,17 @@
     justify-content: center;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 400px){
+    .programmingState{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }
 
 .stateContainer{
@@ -149,8 +217,22 @@
     justify-content: center;
 }
 
+@media only screen and (max-width: 400px){
+    .stopStalk{
+        font-size: 12px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+
 .stopStalk span{
     margin-right: 10px;
+}
+
+@media only screen and (max-width: 400px){
+    .stopStalk span{
+        margin-bottom: 10px;
+    }
 }
 
 .hrLine{
@@ -174,21 +256,12 @@
     color: gray;
 }
 
-@media only screen and (max-width: 600px){
-    .academy-main{
-        height: 100vh;
-    }
-
-    .academy-container{
-        margin-left: 80px;
-    }
-
-    .academy-heading h1{
-        margin-left: 0px;
-    }
-
-    .academy-titles{
-        width: 90%;
+@media only screen and (max-width: 400px){
+    .academicPageKeyPoint{
+        width: 100%;
+        padding-left: 0px;
+        font-size: 12px;
+        color: gray;
     }
 }
 

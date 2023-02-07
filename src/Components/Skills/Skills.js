@@ -21,6 +21,9 @@ const Skills = () => {
                                 <span>React.js</span>
                             </div>
                             <div className='skillCard'>
+                                <span>Redux</span>
+                            </div>
+                            <div className='skillCard'>
                                 <span>Express.js</span>
                             </div>
                             <div className='skillCard'>
@@ -46,14 +49,12 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className='skillContent'>
                         <h6>Familiar</h6>
                         <div className='skillItemArea'>
                             <div className='skillCard'>
                                 <span>Next.js</span>
-                            </div>
-                            <div className='skillCard'>
-                                <span>Redux</span>
                             </div>
                             <div className='skillCard'>
                                 <span>SASS</span>
@@ -79,8 +80,6 @@ const Skills = () => {
                             <div className='skillCard'>
                                 <span>Data Structure</span>
                             </div>
-                        </div>
-                        <div className='skillItemArea'>
                             <div className='skillCard'>
                                 <span>Algorithms</span>
                             </div>
@@ -88,7 +87,9 @@ const Skills = () => {
                                 <span>Firebase Authentication</span>
                             </div>
                         </div>
+                       
                     </div>
+
                     <div className='skillContent'>
                         <h6>Tools</h6>
                         <div className='skillItemArea'>
@@ -119,30 +120,6 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-                {/* <h1>Skills <span className='skills-title'>what I know</span></h1> */}
-                {/* <div className="skills-container"> */}
-                    {/* <div className="skills-area">
-                        <h5><span><FontAwesomeIcon icon={faCode} /></span> Programming Language</h5>
-                        <ProgrammingSkills />
-                    </div>
-                    <div className="skills-area g">
-                        <h5><span><FontAwesomeIcon icon={faPaintBrush} /></span> Frontend Technology</h5>
-                        <FrontendSkills />
-                    </div>
-                    <div className="skills-area b">
-                        <h5><span><FontAwesomeIcon icon={faDatabase} /></span> Backend Technology</h5>
-                        <BackendSkills />
-                    </div>
-                    <div className="skills-area m">
-                        <h5><span><FontAwesomeIcon icon={faTools} /></span> Tools</h5>
-                        <ToolsSkills />
-                    </div> */}
-                {/* </div> */}
             </section>
         </main>
     );

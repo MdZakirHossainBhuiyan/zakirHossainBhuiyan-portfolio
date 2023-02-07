@@ -74,7 +74,7 @@ const AboutMe = () => {
                                 <h6><hr /> Age </h6>
                                 <p>25 years</p>
                             </div>
-                            <div className='bottomDiv'>
+                            <div className='bottomDiv responsiveMargin'>
                                 <h6><hr /> Freelance </h6>
                                 <p>Available</p>
                             </div>
