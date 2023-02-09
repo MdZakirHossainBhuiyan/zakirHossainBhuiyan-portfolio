@@ -123,7 +123,7 @@ const AboutMe = () => {
 
                         
                         <button className='downloadButton'>
-                            <a href="https://drive.google.com/file/d/1OIEmnG1Kic5mYZQczzCah2oVzILYsm26/view?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/file/d/1FJYKRIxPMeWGeMD60KtM0x3N7aEbEbyQ/view" target="_blank">
                                 Download CV
                                 <span className="downloadIcon">
                                     <DownloadForOfflineOutlinedIcon style={{"fontSize": "30px"}} />
